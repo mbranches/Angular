@@ -1,0 +1,40 @@
+# Ignora node_modules e dist de qualquer subpasta
+**/node_modules/
+**/dist/
+**/.angular/
+**/.angular/cache/
+**/.angular/config.json
+
+# Ignora arquivos de ambiente
+**/environment.*.ts
+
+# Ignora IDEs e editores comuns
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignora arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos temporários
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignora arquivos de build de SOs
+*.exe
+*.out
+*.dll
+*.class
+
+# Ignora arquivos gerados por testes
+**/coverage/
+**/.nyc_output/
+**/test-results/
+
+# Outras pastas Angular cache locais
+**/.eslintcache
+**/.cache/
