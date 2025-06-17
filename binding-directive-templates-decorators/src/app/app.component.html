@@ -1,0 +1,22 @@
+                <!-- assim refere a propriedade value-->
+<input type="text" [value]="inputText" [type]="inputType" [disabled]="isDisabled">
+
+<br>
+
+<button (click)="enableInput()">Habilitar</button>
+<button (click)="disableInput()">Desabilitar</button>
+
+<br>
+
+
+<label>
+  Password
+  <input (click)="setInputTypePassword()" type="radio" name="type">
+</label>
+
+<br>
+
+<label>
+  Text
+  <input (click)="setInputTypeText()" type="radio" name="type">
+</label>
